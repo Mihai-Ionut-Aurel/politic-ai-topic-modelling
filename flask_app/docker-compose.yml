@@ -1,0 +1,14 @@
+version: "3.1"
+services:
+    flask:
+      build:
+        context: .
+        dockerfile: ./Dockerfile
+      #image: imihai/politic-ai:latest
+      container_name: political-ai-microservice
+      working_dir: /application
+      ports:
+       - "5777:5777"
+       - "5779:5779"
+
+

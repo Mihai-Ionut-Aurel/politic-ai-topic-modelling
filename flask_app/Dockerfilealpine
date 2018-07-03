@@ -1,0 +1,41 @@
+FROM python:3.6.5-alpine3.7
+
+RUN apk add --update \
+    supervisor \
+    uwsgi-python36 \
+        && rm -rf /var/cache/apk/*
+
+RUN apk --no-cache add lapack     && apk --no-cache add --virtual builddeps g++ gfortran musl-dev lapack-dev
+
+RUN pip3 install --upgrade setuptools
+COPY requirements.txt /tmp
+
+RUN pip3 install --no-cache-dir --upgrade --requirement /tmp/requirements.txt
+
+
+RUN set -x ; \
+  addgroup -S uwsgi ; \
+  adduser -S -G uwsgi uwsgi && exit 0 ; exit 0
+
+
+ENV APP_DIR /app
+
+RUN mkdir ${APP_DIR} \
+	&& chown -R uwsgi:uwsgi ${APP_DIR} \
+	&& chmod 777 /run/ -R \
+	&& chmod 777 /root/ -R
+
+VOLUME [${APP_DIR}]
+WORKDIR ${APP_DIR}
+COPY supervisord.conf /etc/supervisord.conf
+
+
+
+COPY . /app
+WORKDIR /app
+
+
+
+EXPOSE 5777
+
+CMD ["/usr/bin/supervisord"]
