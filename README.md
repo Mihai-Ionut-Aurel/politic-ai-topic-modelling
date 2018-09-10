@@ -10,13 +10,13 @@ incubator and assists team of 2 to 4 students at building and ICT business in 10
 
 
 Besides us, the team is composed of all the people who gave us their help. We wanna thank them for their help and support.
-- [Slinger Roijackers] [slinger-roijackers]
-- [Paul Lemon] [paul-lemon]
-- [Sjaak Brinkkemper] [sjaak-brinkkemper]
-- [Bart de Koning] [bart-koning]
-- [Liset Hamming] [liset-hamming]
-- [Martijn Ruijter] [martijn-ruijter]
-- [Frank Verbruggen] [frank-verbruggen]
+- [Slinger Roijackers][slinger-roijackers]
+- [Paul Lemon][paul-lemon]
+- [Sjaak Brinkkemper][sjaak-brinkkemper]
+- [Bart de Koning][bart-koning]
+- [Liset Hamming][liset-hamming]
+- [Martijn Ruijter][martijn-ruijter]
+- [Frank Verbruggen][frank-verbruggen]
 ## Project info
 
 This part of the project was used for text analysis. Besides this, a microservice , which runs with Flask, can be deployed using docker.
