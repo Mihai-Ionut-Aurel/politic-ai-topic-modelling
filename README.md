@@ -10,13 +10,13 @@ incubator and assists team of 2 to 4 students at building and ICT business in 10
 
 
 Besides us, the team is composed of all the people who gave us their help. We wanna thank them for their help and support.
-- Slinger Roijackers
-- Sjaak Brinkkemper
-- Bart de Koning
-- Liset Hamming
-- Martijn Ruijter
-- Frank Verbruggen
-- The team of Gracenote NWG
+- [Slinger Roijackers] [slinger-roijackers]
+- [Paul Lemon] [paul-lemon]
+- [Sjaak Brinkkemper] [sjaak-brinkkemper]
+- [Bart de Koning] [bart-koning]
+- [Liset Hamming] [liset-hamming]
+- [Martijn Ruijter] [martijn-ruijter]
+- [Frank Verbruggen] [frank-verbruggen]
 ## Project info
 
 This part of the project was used for text analysis. Besides this, a microservice , which runs with Flask, can be deployed using docker.
@@ -26,3 +26,12 @@ For the text analysis/topic modelling, the Gensim library was extended and used.
 [richard-profile]: https://www.linkedin.com/in/richardljooms/
 [yannick-profile]: https://www.linkedin.com/in/yannick-mijsters-264244135/
 [jordan-profile]: https://www.linkedin.com/in/jordan-van-dijk-874a48137/
+
+<!-- Contributors Linkedins -->
+[paul-lemon]: https://www.linkedin.com/in/paul-lemon-3760764/
+[slinger-roijackers]: https://www.linkedin.com/in/slinger-roijackers-jansen-3081a51/
+[sjaak-brinkkemper]: https://www.linkedin.com/in/sjaakbrinkkemper/
+[bart-koning]: https://www.linkedin.com/in/bart-de-koning-7814ba1b/
+[liset-hamming]: https://www.linkedin.com/in/lisethamming/
+[martijn-ruijter]: https://www.linkedin.com/in/martijn-ruijter-1259a5129/
+[frank-verbruggen]: https://www.linkedin.com/in/frank-verbruggen/
